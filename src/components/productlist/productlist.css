@@ -1,0 +1,88 @@
+.product-list {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    font-family: 'Roboto', Arial, sans-serif;
+    transition: transform 0.3s;
+  }
+
+  .S-mart {
+    font-size: 40px;
+    font-weight: bold;
+    
+  }
+  .Name {
+    font-size: 38px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #2c3e50;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+  }
+  
+
+  .list {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 16px;
+    color: #2c3e50;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+  }
+
+  .list td {
+    padding: 16px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+    vertical-align: middle;
+    font-size: 15px;
+  }
+
+  .list th {
+    background-color: #2c3e50;
+    color: #ffffff;
+    padding: 16px;
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.8px;
+    font-size: 14px;
+  }
+
+  .list td {
+    padding: 16px;
+    border-bottom: 1px solid #170808;
+    text-align: left;
+    vertical-align: middle;
+    font-size: 15px;
+  }
+  
+  .list tr:hover {
+    background-color: #a8d0fb;
+    transition: background-color 0.3s ease-in-out;
+  }
+
+.view-btn {
+    display: inline-block;
+    background: linear-gradient(45deg, #1abc9c, #16a085);
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    margin: 0;
+  }
+
+  .view-btn:hover {
+    background: linear-gradient(45deg, #16a085, #1abc9c);
+    transform: scale(1.08);
+  }
+  
+ 
